@@ -14,12 +14,12 @@ body{ background-color: black;
   background-position: center;
   background-size: max(1200px, 100vw);
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 70vh;
   position: relative;
 }
 
 .main .box {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   opacity: 0.44;
   position: absolute;
