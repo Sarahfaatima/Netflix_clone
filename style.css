@@ -140,13 +140,13 @@ nav button {
 .secImg {
   position: relative;
 }
-
 .secImg img {
-  width: 30vw;
-  
+  width: 36vw;
 }
 
-.secImg video {
+.secImg video{
   position: absolute;
-  
-}
+  top: 51px;
+  right: 0;
+  }
+    
