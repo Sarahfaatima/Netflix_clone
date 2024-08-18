@@ -126,7 +126,7 @@ nav button {
   gap: 7px;
 }
 
-.first{
+.first {
   display: flex;
   justify-content: center;
   max-width: 70vw;
@@ -137,14 +137,17 @@ nav button {
 
 }
 
-.secImg img{
-  width: 30vw;
+.secImg {
   position: relative;
-  z-index: 10;
 }
 
-.secImg video{
+.secImg img {
+  width: 30vw;
+  top: 0;
+  
+}
+
+.secImg video {
   position: absolute;
-  top: 51px;
-  right: 0;
+  
 }
