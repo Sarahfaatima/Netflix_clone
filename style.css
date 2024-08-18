@@ -141,12 +141,15 @@ nav button {
 }
 .secImg img {
   width: 36vw;
-}
+  position: relative;
+  z-index: 10;
+} 
 
 .secImg video {
+  width: 31vw;
   position: absolute;
-  top: 51px;
-  right: 0;
+  top: 70px;
+  right: 0px;  
 }
 
 section.first > div {
@@ -161,4 +164,23 @@ section.first > div :nth-child(1) {
 
 section.first > div :nth-child(2) {
   font-size: 24px;
+}
+
+.faq h2{
+  text-align: center;
+}
+
+.faq{
+  background: black;
+  color: white;
+  padding: 34px;
+}
+
+.faqbox {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 24px;
+  max-width: 40vw;
+  margin: 34px auto;
 }
