@@ -178,7 +178,7 @@ section.first > div :nth-child(2) {
 }
 
 .faqbox:hover {
-  background-color: rgb(38, 36, 36);
+  background-color: #414141;
   color: white;
 }
 
