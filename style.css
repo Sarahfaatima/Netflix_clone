@@ -143,13 +143,13 @@ nav button {
   width: 36vw;
   position: relative;
   z-index: 10;
-} 
+}
 
 .secImg video {
   width: 31vw;
   position: absolute;
   top: 70px;
-  right: 0px;  
+  right: 0px;
 }
 
 section.first > div {
@@ -166,12 +166,12 @@ section.first > div :nth-child(2) {
   font-size: 24px;
 }
 
-.faq h2{
+.faq h2 {
   text-align: center;
   font-size: 48px;
 }
 
-.faq{
+.faq {
   background: black;
   color: white;
   padding: 34px;
@@ -182,7 +182,6 @@ section.first > div :nth-child(2) {
   color: white;
 }
 
-
 .faqbox {
   transition: all 3s ease-out;
   font-size: 24px;
@@ -192,5 +191,18 @@ section.first > div :nth-child(2) {
   padding: 24px;
   max-width: 70vw;
   margin: 34px auto;
-  cursor: pointer;
+  cursor: pointer;  
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+
+.footer-item{
+  display: flex;
+  flex-direction: column;
 }
