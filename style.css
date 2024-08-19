@@ -195,14 +195,25 @@ section.first > div :nth-child(2) {
 }
 
 footer{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
   max-width: 60vw;
   margin: auto;
+  padding: 34px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+.footer a{
+  font-size: 14px;
+  color: white;
 }
 
 .footer-item{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 23px;
 }
